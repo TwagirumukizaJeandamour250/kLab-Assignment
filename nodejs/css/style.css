@@ -1,0 +1,55 @@
+        @import url(https://fonts.google.com/specimen/Source+Sans+Pro);
+        #container {
+            padding: 1em;
+            margin: 3em;
+        }
+        
+        #navigation {
+            background-color: #ddd;
+            height: 90px;
+            display: flex;
+        }
+        /**
+* Desktop Navigation 
+*/
+        
+        .navbar {
+            padding: 0px;
+        }
+        
+        .navbar ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+            align-items: center;
+            margin-left: 800px;
+        }
+        
+        .navbar li {
+            position: relative;
+        }
+        
+        #welcome {
+            background-color: rgb(129, 106, 101);
+            height: 500px;
+        }
+        
+        #experience {
+            background: #dab;
+            height: 70px;
+        }
+        
+        #container {
+            border: 1px solid black;
+            margin-top: 50 px;
+            width: 500px;
+            height: 200px;
+        }
+        
+        #card-body {
+            border: 1px dotted black;
+            width: 450px;
+            height: 140px;
+            padding: 20px;
+        }
